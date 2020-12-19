@@ -10,9 +10,8 @@ using namespace std;
 string transMinuscula(string s)
 {
     string retorno = s;
-    for (int i = 0; i < s.size(); i++)
-    {
-        if (s[i] < 91)
+    for (int i = 0; i < s.size(); i++){
+        if (s[i] < 91 && s[i] > 64)
         {
             retorno[i] = s[i] + 32;
         }
@@ -25,7 +24,6 @@ string transMinuscula(string s)
 int main()
 {
     string auxiliar;
-    int m=0;
     string texto = "";
     while (cin >> auxiliar) {
         texto += auxiliar;

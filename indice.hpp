@@ -1,7 +1,7 @@
 #ifndef INDICE_HPP
 #define INDICE_HPP
 
-#include <string.h>
+#include <string>
 
 using namespace std;
 
